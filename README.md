@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# _Tap-Room_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <a href="https://github.com/SJerrod">
+        <img style="border-radius: 100%; height: 250px; width: auto" src="https://avatars1.githubusercontent.com/u/65928050?s=460&u=eae77ab164dde31ddbe95627ad67c5d7072ca033&v=4">
+    </a>
+</p>
 
-## Available Scripts
+<p align="center">
+  <small>Last Updated: February 12th, 2021</small>
+</p>
 
-In the project directory, you can run:
+#### _Building an app to track Keg inventory_ 
 
-### `npm start`
+# 🧑‍💻 Contributers
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| Name | GitHub Profile |
+|------|----------------|
+|[Jerrod Styrk](https://www.linkedin.com/in/styrk-jerrodm/)|[SJerrod](https://github.com/SJerrod)|
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# 📖 Description
+- This application when run will show a list of available beers, If none are availible or if you wish to add to the list click the "Add New Beer" button. Click on a beer in the beer list to expand its details. Users can buy, restock and delet beers from list.
 
-### `npm test`
+# 💾 Installation Requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Software Requirements
+* An internet browser of your choice; I prefer Chrome
+* A code editor; I prefer VSCode
 
-### `npm run build`
+# 🖥️ Opening the Project on your Local System
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open by Downloading or Cloning
+- [Click to view Github repository](https://github.com/SJerrod/AnimalShelter.Solution.git) Or simply paste the following url into your prefered browser https://github.com/SJerrod/AnimalShelter.Solution.git
+- To Clone repository simply click the green Code button and copy the url.
+- Using a prefered terminal use the command `git clone paste-url-here` in which ever directory you wish.
+- Open the newly cloned repo with your text editor.
+- In the terminal run command `cd tap-room` if you are not already at the root directory
+- In the terminal run command `npm install` in install dependencies and webpacks
+- In the terminal run command `npm start` to start the app in browser
+  Runs the app in the development mode.\
+  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  The page will reload if you make edits.\
+  You will also see any lint errors in the console.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 🛰️ Component Diagram
 
-### `npm run eject`
+# 🦠 Bugs / Issues
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* None currently to note
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# ☎️ Support / Contact Details
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Please feel free to reach out to <jstyrk@citadel.edu>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# ⚙️ Technologies Used
 
-## Learn More
+<details>
+  <summary>Expand Tech/tools</summary>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [VSCode](https://code.visualstudio.com/)
+* [Git](https://git-scm.com/)
+* [JavaScriptES6](https://www.javascript.com/)
+* [JSX](https://reactjs.org/docs/introducing-jsx.html)
+* [React](https://reactjs.org/)
+* [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+* [node.js](https://nodejs.org/en/)
+* [Bootstrap](https://create-react-app.dev/docs/adding-bootstrap/)
+* [Webpack](https://webpack.js.org/)
+* [Babel](https://babeljs.io/)
+* [Eslint](https://eslint.org/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+</details>
 
-### Code Splitting
+# ⚖️ License & Copyright
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) 2020 **_Jerrod Styrk_**
