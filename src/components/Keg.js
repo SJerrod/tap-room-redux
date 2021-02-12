@@ -5,9 +5,8 @@ function Keg(props) {
   return (
     <>
       <div className='card' onClick= {() => props.whenKegClicked(props.id)}>
-        <div className='card-header'>{props.name}</div>
-        <div className='card-body'>${props.price}</div>
-        <div className='card-footer'>{props.pints} serving/s in stock</div>
+        <div className='card-header'><strong>{props.name}</strong></div>
+        <div className='card-body'>${props.price}.00 per pint <br/> {props.pints} Serving/s remaining</div>
       </div>
     </>
   );

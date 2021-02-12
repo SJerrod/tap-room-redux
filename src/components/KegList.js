@@ -17,6 +17,7 @@ function KegList(props) {
           id={keg.id}
           key={keg.id} 
           />
+          <br/>
         </div>
       )}
     </>
@@ -25,7 +26,7 @@ function KegList(props) {
 
 KegList.propTypes = {
   kegList: PropTypes.array,
-  onKegSelection: PropTypes.func
+  onKegSelected: PropTypes.func
 };
 
 export default KegList;
