@@ -6,17 +6,17 @@ function ReusableForm(props) {
     <>
       <div className='container'>
         <form onSubmit={props.formSubmissionHandler}>
-          <input type='text' name='name' placeholder='Beer Name'/>
+          <input type='text' name='name' placeholder='Beer Name' required/>
           <br/>
-          <input type='text' name='brand' placeholder='Brand'/>
+          <input type='text' name='brand' placeholder='Brand' required/>
           <br/>
           <textarea name='description' placeholder='Beer Description'/>
           <br/>
-          <input type='number' min='0' name='price' placeholder='Price per pint'/>
+          <input type='number' min='0' name='price' placeholder='Price per pint' required/>
           <br/>
-          <input type='number' min='0' name='alcoholContent' placeholder='Alcohol Content by %'/>
+          <input type='number' min='0' name='alcoholContent' placeholder='Alcohol Content by %' required/>
           <br/>
-          <input type='number' min='0' name='pints' placeholder='Pints per Keg'/>
+          <input type='number' min='0' name='pints' placeholder='Pints per Keg' required/>
           <br/>
           <button type='submit'>{props.buttonText}</button>
         </form>
