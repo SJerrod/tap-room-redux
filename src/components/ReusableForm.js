@@ -12,9 +12,9 @@ function ReusableForm(props) {
           <br/>
           <textarea name='description' placeholder='Beer Description'/>
           <br/>
-          <input type='number' min='0' name='price' placeholder='Price per pint' required/>
+          <input type='number' step='.01' min='0' name='price' placeholder='Price per pint' required/>
           <br/>
-          <input type='number' min='0' name='alcoholContent' placeholder='Alcohol Content by %' required/>
+          <input type='number' step='.01' min='0' name='alcoholContent' placeholder='Alcohol Content by %' required/>
           <br/>
           <input type='number' min='0' name='pints' placeholder='Pints per Keg' required/>
           <br/>

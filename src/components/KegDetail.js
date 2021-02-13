@@ -25,7 +25,7 @@ function KegDetail(props) {
             <div className='card-body bg-warning'>{stockMessage}</div>
           </div>
           <div className='col-md-6'>
-            <hr/>
+            <br/>
             <button className='btn-dark' hidden={keg.pints === 0} onClick={() => onClickingBuy(keg.id)}>Buy</button>
             <hr/>
             <button className='btn-dark' onClick={() => onClickingRestock(keg.id, numberInput.current.value)}>Restock</button>
@@ -34,7 +34,7 @@ function KegDetail(props) {
             <button className='btn-dark' onClick={() => onClickingDelete(keg.id)}>Delete Keg</button>
           </div>
         </div>
-        <div className='card-footer bg-info text-white'>${keg.price}.00 per serving</div>
+        <div className='card-footer bg-info text-white'>${keg.price} per serving</div>
       </div>
     </>
   );
