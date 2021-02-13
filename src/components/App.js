@@ -1,18 +1,13 @@
 import React from 'react';
+import Header from './Header';
 import KegControl from './KegControl';
 
 function App() {
   return (
     <>
+      <Header />
       <div className='container container-fluid'>
-        <div className='jumbotron jumbotron-fluid'>
-          <div className='container'>
-            <h1><em>Bar's Bar</em></h1>
-            <blockquote>Where a bar can be itself.</blockquote>
-            <footer><em>"The only bar for true bar connoisseur's" ~ Drinkers Digest</em></footer>
-          </div>
-        </div>
-        <h4>Current Beer Selection</h4>
+        <h4 className='menu'>Current Beer Selection</h4>
         <KegControl />
       </div>
     </>

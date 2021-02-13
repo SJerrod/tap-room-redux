@@ -30,7 +30,7 @@ Software Requirements
 # 🖥️ Opening the Project on your Local System
 
 Open by Downloading or Cloning
-- [Click to view Github repository](https://github.com/SJerrod/AnimalShelter.Solution.git) Or simply paste the following url into your prefered browser https://github.com/SJerrod/AnimalShelter.Solution.git
+- [Click to view Github repository](https://github.com/SJerrod/tap-room.git) Or simply paste the following url into your prefered browser https://github.com/SJerrod/tap-room.git
 - To Clone repository simply click the green Code button and copy the url.
 - Using a prefered terminal use the command `git clone paste-url-here` in which ever directory you wish.
 - Open the newly cloned repo with your text editor.
@@ -44,6 +44,10 @@ Open by Downloading or Cloning
   You will also see any lint errors in the console.
 
 # 🛰️ Component Diagram
+
+<center>
+<img style="width: 50% height: 50%" src="./src/img/diagram.png">
+</center>
 
 # 🦠 Bugs / Issues
 
