@@ -20,4 +20,20 @@ describe('rootReducer', () => {
   test('Check if initial state of formVisibleReducer matches the rootReducer', () => {
     expect(store.getState().formVisibleOnPage).toEqual(formVisibleReducer(undefined, { type: null }));
   });
+
+  test('Check that ADD_KEG action works for kegListReducer and rootReducer', () => {
+    const action = {
+      type: 'ADD_KEG',
+      name: 'OktoberFest',
+      brand: 'Sam Adams',
+      description: 'Hearty and Smooth, Marzen',
+      price: 5.50,
+      alcoholContent: 5.2,
+      pints: 124,
+      id: 1
+    }
+    store.dispatch(action);
+    expect(store.getState().masterKegList).toEqual(kegListReducer(undefined, action));
+  });
+  
 });
