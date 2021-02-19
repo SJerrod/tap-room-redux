@@ -5,16 +5,17 @@ import PropTypes from 'prop-types';
 function KegList(props) {
   return (
     <>
-      {props.kegList.map((keg) =>
+      {Object.values(props.kegList).map((keg) =>
         <div className='container' key={keg.id}>
           <Keg
-          whenKegClicked={props.onKegSelection}
-          name={keg.name}
-          brand={keg.brand}
-          price={keg.price}
-          alcoholContent={keg.alcoholContent}
-          pints={keg.pints}
-          id={keg.id}
+            whenKegClicked={props.onKegSelection}
+            name={keg.name}
+            brand={keg.brand}
+            price={keg.price}
+            alcoholContent={keg.alcoholContent}
+            pints={keg.pints}
+            // formattedWaitTime={keg.formattedWaitTime}
+            id={keg.id}
           />
           <br/>
         </div>
@@ -24,7 +25,7 @@ function KegList(props) {
 }
 
 KegList.propTypes = {
-  kegList: PropTypes.array,
+  kegList: PropTypes.object,
   onKegSelected: PropTypes.func
 };
 
