@@ -10,6 +10,7 @@ import { Provider } from 'react-redux';
 
 const store = createStore(reducer);
 
+// remember to remove this
 store.subscribe(() =>
   console.log(store.getState())
 );
