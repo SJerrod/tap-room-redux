@@ -79,17 +79,20 @@ class KegControl extends React.Component {
   }
 
   handleRestockKeg = (id, restockAmount) => {
+    const { dispatch } = this.props;
+    const kegUpdate = this.props.masterKegList[id];
     if (restockAmount === "") {
       restockAmount = 0;
+    } else {
+      kegUpdate.pints += parseInt(restockAmount);
     }
-    const newMasterKegList = this.state.masterKegList.map((keg) => ({
-      ...keg,
-      pints: keg.id === id ? parseInt(keg.pints) + parseInt(restockAmount) : keg.pints
-    }));
-    this.setState({
-      masterKegList: newMasterKegList,
-      selectedKeg: null
-    });
+    const action = {
+      type: 'RESTOCK_KEG',
+      id: id,
+      restockAmount: restockAmount
+    }
+    dispatch(action);
+    this.setState({selectedKeg: kegUpdate});
   }
 
   render(){
