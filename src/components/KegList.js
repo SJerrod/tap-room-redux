@@ -14,7 +14,6 @@ function KegList(props) {
             price={keg.price}
             alcoholContent={keg.alcoholContent}
             pints={keg.pints}
-            // formattedWaitTime={keg.formattedWaitTime}
             id={keg.id}
           />
           <br/>
